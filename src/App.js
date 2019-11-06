@@ -13,7 +13,8 @@ class App extends Component {
     super(props);
     this.state={
         list:[{name:"",comment:""}],
-        cur: {}
+        cur: {},
+        list: []
     }
   }
 
@@ -31,6 +32,16 @@ addNewComment= (name,comment) => {
   console.log('ggg', [...this.state.list,temp]);
   
 
+}
+
+remove = (comment) => {
+  let com = [this.state.list]
+ let index = com.indexOf(comment)
+
+ com.splice(index, 1)
+ this.setState({
+   list: com
+ })
 }
 
 addNewitem=(e)=>{
@@ -72,6 +83,7 @@ addNewitem=(e)=>{
         <p>
           {item.comment}
         </p>
+        <button onClick={()=>this.remove(item)}> remove comment</button>
       </div>)
       });
 
@@ -83,7 +95,7 @@ addNewitem=(e)=>{
             <p>The place to track your favorite cryptocurrency </p>
 
             <Tickers cur={this.state.cur} />
-            <Comments1 newItem={this.addNewitem}
+            <Comments1 remove={this.remove} newItem={this.addNewitem}
             addItem = {this.addNewComment}/>
            {commentToDisplay}
         </div>

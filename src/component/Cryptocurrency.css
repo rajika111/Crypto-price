@@ -1,29 +1,36 @@
 .cryptocurrency {
-    padding: 1rem 2rem 2rem;
-    margin: 1rem;
+    padding: 20px;
+    margin: 0.5rem;
     border-radius: 0.5rem;
     min-width: 9rem;
     border: solid 1px rgba(250, 250, 250, 0.877);
+    background-color: #6cd86c;
+
 }
 .cryptocurrency p {
     color: rgba(0, 0, 0, 0.75);
-    font-size: 1rem;
+    font-size: 30px;
+
 }
 .cryptocurrencylist {
     font-size: 1rem;
 }
-.bitcoin {
-    background-color: #e06830;
+.App {
+    background-color: #b1f1b6;
     /* font-size: 1.25rem; */
 }
-.ethereum {
-    background-color: #c2c9ff;
+.tickers{
+    background-color: #dad0d0fb;
+    display: flex;
+    flex-wrap: wrap;
+    width: 67rem;
+    
 }
 .litecoin {
     background-color: #6bf32c;
 }
 
-.BitcoinCash {
+.header{
     background-color: #248fe6;
 }
 
