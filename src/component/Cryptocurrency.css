@@ -1,0 +1,52 @@
+.cryptocurrency {
+    padding: 1rem 2rem 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    min-width: 9rem;
+    border: solid 1px rgba(250, 250, 250, 0.877);
+}
+.cryptocurrency p {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1rem;
+}
+.cryptocurrencylist {
+    font-size: 1rem;
+}
+.bitcoin {
+    background-color: #e06830;
+    /* font-size: 1.25rem; */
+}
+.ethereum {
+    background-color: #c2c9ff;
+}
+.litecoin {
+    background-color: #6bf32c;
+}
+
+.BitcoinCash {
+    background-color: #248fe6;
+}
+
+.ripple {
+    background-color: #248fe6;
+}
+
+.EOS {
+    background-color: #889097;
+}
+.TRON {
+    background-color: #e62465;
+}
+.Cardano{
+    background-color: #248fe6;
+}
+.Monero {
+    background-color: #e62434e0;
+}
+.binance-coin {
+    background-color: #e66b1ae0;
+}
+.keepwatch {
+    background-color: #6cff32;
+    /* font-size: 1.25rem; */
+}
