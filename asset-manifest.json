@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Crypto-price/static/css/main.80e4681a.chunk.css",
+    "main.js": "/Crypto-price/static/js/main.2dc7b826.chunk.js",
+    "main.js.map": "/Crypto-price/static/js/main.2dc7b826.chunk.js.map",
+    "runtime-main.js": "/Crypto-price/static/js/runtime-main.9520cc9f.js",
+    "runtime-main.js.map": "/Crypto-price/static/js/runtime-main.9520cc9f.js.map",
+    "static/js/2.39b4b49c.chunk.js": "/Crypto-price/static/js/2.39b4b49c.chunk.js",
+    "static/js/2.39b4b49c.chunk.js.map": "/Crypto-price/static/js/2.39b4b49c.chunk.js.map",
+    "index.html": "/Crypto-price/index.html",
+    "precache-manifest.e1a4834027f107a89f70a8e4fa22384a.js": "/Crypto-price/precache-manifest.e1a4834027f107a89f70a8e4fa22384a.js",
+    "service-worker.js": "/Crypto-price/service-worker.js",
+    "static/css/main.80e4681a.chunk.css.map": "/Crypto-price/static/css/main.80e4681a.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9520cc9f.js",
+    "static/js/2.39b4b49c.chunk.js",
+    "static/css/main.80e4681a.chunk.css",
+    "static/js/main.2dc7b826.chunk.js"
+  ]
+}
