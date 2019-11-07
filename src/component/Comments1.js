@@ -44,4 +44,4 @@ render (){
 }}
 
 
-  export default Comments1;
+  export default Comments1; 

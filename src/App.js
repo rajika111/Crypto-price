@@ -6,7 +6,7 @@ import axios from 'axios'
 import Comments1 from './component/Comments1';
 
 
-class App extends Component {
+class App extends Component { 
 
 
   constructor(props){
