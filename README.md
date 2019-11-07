@@ -39,5 +39,5 @@ Styling and desighn with CSS it was my favorite.
 ### 5.Visual Studio tool
 ### 6.Google chrome Devoloper tool.
 
-##  Demo linl
+##  Demo linlk 
 * [Crypto-price](https://rajika111.github.io/Crypto-price/)
