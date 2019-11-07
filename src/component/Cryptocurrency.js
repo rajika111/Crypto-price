@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Cryptocurrency.css';
 
 class Cryptocurrency extends Component {
-
+// keep watch bytton 
     keepwatch= () => {console.log("string")}
 
 

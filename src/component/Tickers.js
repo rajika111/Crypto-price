@@ -6,7 +6,7 @@ import './Tickers.css';
 
 class Tickers extends Component {
  
-
+// Api 
     fetchCryptocurrencyData() {
         axios   ({
             url: "http://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?slug=bitcoin,ethereum,litecoin,bitcoin-cash,ripple,eos,binance-coin,tron,cardano,monero",
@@ -31,7 +31,7 @@ class Tickers extends Component {
         this.fetchCryptocurrencyData();
         this.interval = setInterval(() => this.fetchCryptocurrencyData(), 60*60* 1000);
     }
-
+    // define wach coin 
     state = {
         data: [
             {

@@ -17,7 +17,7 @@ class App extends Component {
         list: []
     }
   }
-
+// comment 
 addNewComment= (name,comment) => { 
 
   const temp={name:name,comment:comment};
@@ -33,7 +33,7 @@ addNewComment= (name,comment) => {
   
 
 }
-
+// remove a comment
 remove = (comment) => {
   let com = [this.state.list]
  let index = com.indexOf(comment)
@@ -46,9 +46,7 @@ remove = (comment) => {
 
 addNewitem=(e)=>{
     console.log(e)
-      // this.setState({
-      //   list:[data,...this.state.list]
-      // })
+    
   }
   componentDidMount(){
     axios.get("https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC,ETH,LTC,BCH,XRP,EOS,BNB,TRX,ADA,XMR&tsyms=USD")
@@ -61,10 +59,6 @@ addNewitem=(e)=>{
     .catch(ree => console.log(ree) )
 
 
-  //   fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?slug=bitcoin,ethereum,litecoin,bitcoin-cash')
-  // .then(response => response.json())
-  // .then(commits => console.log(commits))
-  
   }
 
     
@@ -120,21 +114,4 @@ export default App;
 
 
 
-// import React, {Component} from 'react';
-// import Tickers from './component/Tickers';
-// import './App.css';
 
-// class App extends Component {
-//   render() {
-//     return (
-//     <div className="App">
-//       <div className="App-header">
-//        <h2>Crypto-Price</h2>
-//       </div>
-//       <Tickers/>
-//     </div>
-//   );
-//   }
-// }
-
-// export default App;
